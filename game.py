@@ -15,5 +15,5 @@ class game:
         :param playerName2: str (si vide, c'est l'ordinateur)
         """
         self.grille = []
-        for ligne in range(NB_ROWS+2):
+        for raw in range(NB_ROWS+2):
             self.grille.append(list((NB_ROWS+2)*[0]))
